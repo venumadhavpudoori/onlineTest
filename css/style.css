@@ -5,10 +5,7 @@
 */
 nav.navbar {
   background:#1a75ff;
-  padding: .8rem 0;
-  /* Navbar Brand --------- */
-  /*  Dropdowns ------------ */
-  /* Toggle Button ---------- */
+  padding: 10px;
 }
  .navbar-header{
   background: #1a75ff;
@@ -198,20 +195,8 @@ nav.navbar .notification-content {
   color: #000;
 }
 
-.page_container {
-    position:relative;
-}
 
-.page_container .main_container{
-    position:relative;
-    display: block;
-}
-.page_container .main_container .item {
-    display:block;
-    margin:0;
-    padding:0;
-    position:relative
-}
+
 /*  NAVBAR MEDIAQUERIES ---------------------------------- */
 @media (max-width: 575px) {
   nav.navbar .dropdown {
@@ -294,12 +279,25 @@ input[type="radio"], button {
     pointer-events: none 
 }
 
+[class*="empty"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+/* question attempt buttons */
 
-
-
-
-
-
-
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius:5px;
+  cursor: pointer;
+}
 
 
